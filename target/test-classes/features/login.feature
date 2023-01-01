@@ -6,14 +6,14 @@ Feature: Login functionality test
   Scenario: Check login with valid credentials
     Given User is on Login Page
     When User enter valid username and password
-    And click on login button
-    Then user navigated to the Home Page
+    And Click on login button
+    Then User navigated to the Home Page
     
      Scenario: Check login with invalid credentials
     Given User is on Login Page
     When User enter invalid username and password
-    And click on login button
-    Then error message is displayed - Invalid credentials
+    And Click on login button
+    Then Error message is displayed - Invalid credentials
    
 
   @tag2
